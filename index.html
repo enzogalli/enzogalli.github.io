@@ -39,6 +39,9 @@
         </div>
         <div class="conteudo col-9">
             <div id="inicio" class="inicio">
+                <img id="fundo" src="assets/img/background1.jpg" alt="">
+                <h1>Enzo Augusto</h1>
+                <h2>Dev Full-Stack | Programador</h2>
             </div>
             <div id="sobre" class="sobre">
                 <h2 class="titulo">Sobre mim</h2>
@@ -118,10 +121,80 @@
             <div id="resumo" class="resumo">
                 <h2 class="titulo">Resumo</h2>
                 <p>Um pouco a mais sobre minha educação e meu percurso na area de programação.</p>
+                <div class="row">
+                    <div class="container col-6">
+                        <h2>Sumario</h2>
+                        <div class="megacontainer">
+                            <div class="subcontainer">
+                                <h3>Enzo Augusto</h3>
+                                <p>Atuo com o desenvolvimento de software, gosto principalmente da parte de codificação, porem posso operar nas diversas partes da engenharia de software, desde o levantamento de requisitos até os testes unitários e integrado.</p>
+                                <ul>
+                                    <li>Cerquilho, SP, Brasil</li>
+                                    <li>(+15)998150204</li>
+                                    <li>enzoaugustobonifaciogalli@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h2 id="abaixo">Educação</h2>
+                        <div class="megacontainer">
+                            <div class="subcontainer">
+                                <h3>Pós Graduação em Ciencia de Dados e Big Data Analytics</h3>
+                                <div class="time">2022 - Presente</div>
+                                <p id="local">Faculdade Estácio de Sá</p>
+                                <p>Pude aprender diversas tecnologias utilizadas no mercado, como R e Pandas, entre outras.</p>
+                            </div>
+                            <div class="subcontainer" id="abaixo">
+                                <h3>Tecnico em Analise e Desenvolvimento de Sistemas</h3>
+                                <div class="time">2019 - 2022</div>
+                                <p id="local">Faculdade Anhanguera</p>
+                                <p>Aprendi os conceitos basicos da construção de um software, desde o levantamento de requisitos, até sua implementação e manutenção.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container col-6">
+                        <h2>Sumario</h2>
+                        <div class="megacontainer">
+                            <div class="subcontainer">
+                                <h3>Experiencia Profissional</h3>
+                                <div class="time" style="margin-bottom: 5%;">2020 - Presente</div>
+                                <p>Formado na area de Analise de Sistemas, atuo no mercado como freelancer, oferecendo soluções para sistemas web, mobile e desktop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="portfolio" class="portfolio">
                 <h2 class="titulo">Portfolio</h2>
                 <p>Segue abaixo alguns dos meus projetos passados.</p>
+                <div class="grid" >
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/img/icones/construção.png" alt="">
+                    </div>
+                </div>
             </div>
             <div id="servicos" class="servicos">
                 <h2 class="titulo">Serviços</h2>
@@ -186,8 +259,54 @@
             <div id="contato" class="contato">
                 <h2 class="titulo">Contato</h2>
                 <p>Entre em contato comigo. Caso tenha algum projeto em mente, esta no lugar certo!</p>
-                <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJocB8zLEMxpQRtztht8BvGJ4&key=AIzaSyCJHlK_JlMHdho9gdQwUqkFJyQiKOUAgOU"></iframe>
-
+                <div class="row">
+                    <div class="maps col-5">
+                        <div class="info">
+                            <div class="local">
+                                <h2>Local</h2>
+                                <p>Cerquilho, São Paulo, Brasil</p>
+                            </div>
+                            <div class="email">
+                                <h2>Email</h2>
+                                <p>enzoaugustobonifaciogalli@gmail.com</p>
+                            </div>
+                            <div class="ligar">
+                                <h2>Me ligue!</h2>
+                                <p>(+15)998150204</p>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Cerquilho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mensagem" style="width: 57.31%;">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="container1">
+                                    <label for="nome">Seu Nome</label>
+                                    <input type="text" id="nome">
+                                </div>
+                                <div class="container1">
+                                    <label for="email">Seu Email</label>
+                                    <input type="email" id="email">
+                                </div>
+                            </div>
+                            <div class="container2">
+                                <label for="assunto">Assunto</label>
+                                <input type="assunto" id="assunto">
+                            </div>
+                            <div class="escreva">
+                                <label for="escreva">Sua Mensagem</label>
+                                <textarea name="escreva" id="escreva" cols="30" rows="10"></textarea>
+                            </div>
+                            <button>Enviar</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
