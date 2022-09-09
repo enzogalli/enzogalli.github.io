@@ -408,6 +408,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .contato .maps .info {
     height: 40%;
+    padding-left: 5%;
 }
 
 .contato .maps .info > div {
@@ -461,6 +462,53 @@ h1,h2,h3,h4,h5,h6 {
     float: right;
     box-shadow: 0px 0px 3px rgb(139, 139, 139);
     margin-left: 1%;
+    width: 100%;
 }
 
+.contato .mensagem .row {
+    height: 11%;
+    margin-top: 0;
+}
 
+.contato .container1 {
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.contato input {
+    height: 40px;
+    width: 90%;
+}
+
+.contato label {
+    display: block;
+}
+
+.container-abaixo, .contato .escreva{
+    padding-left: 5%;
+    padding-top: 3%;
+    clear: both;
+}
+
+.contato .container-abaixo input, .escreva textarea {
+    width: 95.2%;
+}
+
+form {
+    height: 100%;
+}
+
+.contato button {
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 8%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #60b1dd;
+    border: 0;
+    border-radius: 4%;
+}
